@@ -34,17 +34,17 @@ console.log(retArray);
 
 /*----------LEV 1.8----------*/
 
-let index = [2, 4, 6, 8, 10, 12, 14, 16, 18];
+/*let index = [2, 4, 6, 8, 10, 12, 14, 16, 18];
 do {
     console.log(index);
     index++
-} while (index < 0);
+} while (index < 0);*/
 
 let index2 = 0;
 do {
+    index2 += 2;
     console.log(index2);
-    index2++
-} while (index2 < 0);
+} while (index2 <= 20);
 
 /*----------LEV 1.9----------*/
 
